@@ -1,0 +1,11 @@
+{
+	"Print to console": {
+		"prefix": "logs",
+		"body": ["\n", "console.log('$1', $1);", "$2"],
+		"description": "Log output to console"
+	},
+	"export default component": {
+		"prefix": "edp",
+		"body": ["export { default } from './$1';\n"]
+	}
+}

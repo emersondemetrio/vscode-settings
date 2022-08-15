@@ -1,0 +1,36 @@
+{
+	"Print content console": {
+		"prefix": "logs",
+		"body": ["\n", "console.log('$1', $1);", "$2"],
+		"description": "Log output to console"
+	},
+	"Print message console": {
+		"prefix": "log",
+		"body": ["console.log('$1');", "\n"],
+		"description": "Log output to console"
+	},
+	"create react component": {
+		"prefix": "crc",
+		"body": [
+			"import React from 'react';\n",
+			"const $1 = () => {",
+			"\treturn (\n\t\t<div>$1$2</div>\n\t);",
+			"};\n",
+			"export default $1;"
+		],
+		"description": "create react component"
+	},
+	"usefx": {
+		"prefix": "usefx",
+		"body": ["\nuseEffect(() => {", "\t$1", "}, [$1]);\n"],
+		"description": "create react component"
+	},
+	"export default component": {
+		"prefix": "edp",
+		"body": ["\nexport { default } from './$1';\n"]
+	},
+	"new props": {
+		"prefix": "props",
+		"body": ["\ntype $1Props = {\n\t$1: string", "}"]
+	}
+}
