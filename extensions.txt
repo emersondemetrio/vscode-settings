@@ -1,0 +1,16 @@
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+foxundermoon.shell-format
+GitLab.gitlab-workflow
+Gruntfuggly.todo-tree
+jock.svg
+mechatroner.rainbow-csv
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+nickdemayo.vscode-json-editor
+redhat.vscode-xml
+streetsidesoftware.code-spell-checker
+stylelint.vscode-stylelint
+withfig.fig
+wix.glean
